@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.mycontent {
+  flex: 1;
+  overflow: auto;
+  height: 1000px;
+}
+
+.info {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#heading {
+    font-family: helvetica, serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline;
+}
+
+#heading .highlight, .purchase-info .highlight, .feedback .highlight {
+    color: #ff0033;
+    font-family: courier new, monospace;
+}
+
+.info-1 {
+    min-height: 1000px;
+    background: url(../img/digital.jpg);
+    color: #35424a;
+}
+
+#home-info h1, .status h1, .purchase-info h1, .feedback h1  {
+    width: 60%;
+    margin: 0 auto;
+    font-family: courier new, monospace;
+    font-size: 15px;
+    text-align: center;
+    background: #e3d4d4;
+    border-radius: 0 0 10px 10px;
+}
+
+#home-info h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: courier new, monospace;
+    margin-bottom: 0;
+}
+
+#home-info .highlight, .status .highlight {
+    color: #ff0033;
+    font-weight: 700;
+
+}
+
+.button_1 {
+    height: 30px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.button_1:hover {
+    box-shadow: 5px 5px 5px #b90808;
+    color: #35424a;
+}
+
+#home-info form {
+    text-align: center;
+}
+
+#home-info input[type="search"] {
+    padding: 4px;
+    height: 45px;
+    width: 700px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #efebeb;
+}
+
+#home-info input[type="search"]:hover {
+    box-shadow: 0 5px 5px #a2a2a2, 5px 5px 5px #a2a2a2, -5px 5px 5px #a2a2a2;
+}
+
+.info-2 {
+    border: 1px solid #ff0033;
+}
+
+#book-logo {
+    height: 60px;
+}
+
+#author-logo {
+    height: 60px;
+}
+
+#books,
+#authors {
+    background: #eeeff0;
+    width: 49.8%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#books {
+    float: left;
+    border-right: 5px solid #ff0031;
+}
+
+#authors {
+    float: left;
+}
+
+.popular ul {
+    margin: 0;
+    padding: 0;
+}
+
+.popular li {
+    list-style-type: none;
+    margin: 0;
+}
+
+#books a,
+#authors a {
+    text-decoration: none;
+    font-family: latoregular, monospace;
+    font-size: 16px;
+    color: #349191;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
+#authors a {
+    color: #ea6700;
+}
+
+#books a:hover,
+#authors a:hover {
+    font-weight: 900;
+}
+
+#sidebar thead, .main-content thead, .status thead {
+    background-color: #35424a;
+}
+
+#sidebar th, .main-content th, .status th{
+    font-family: latoregular, serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    padding: 5px;
+    color: #ffffff;
+    border: 1px solid #d6d6d6;
+}
+
+#sidebar td, .main-content td, .status td {
+    border: 1px solid #f70e0e;
+    padding: 0 10px;
+}
+
+#sidebar table, .main-content table, .status table {
+    border-collapse: collapse;
+    border: 1px solid #d6d6d6;
+}
+
+#sidebar {
+    float:left;
+    border-spacing: 0;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 20%;
+}
+
+#sidebar a, .main-content td, .status td {
+    text-decoration: none;
+    font-family: latoregular, serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+#sidebar a:hover {
+    color: #e8491d;
+/*    font-weight: 800;*/
+}
+
+.main-content {
+    width: 80%;
+    margin: 20px 0;
+    float: right;
+    position:relative;
+    left: 50%;
+}
+
+.main-content table {
+    float: left;
+    position: relative;
+    left: -50%;
+    table-layout: fixed;
+    width: 80%;
+}
+
+.main-content td {
+    text-align: center;
+    padding: 3px;
+}
+
+#login-form {
+    float: left;
+    background: #35424a;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin: 50px 0 0 30px;
+}
+
+#login-form form {
+    padding: 10px;
+}
+
+.feedback {
+    width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+#feedback-form {
+    background: #35424a;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#new-account-form {
+    background: #35424a;
+    border: none;
+    border-radius: 4px;
+    float:left;
+    width: 50%;
+    margin: 50px 0 0 300px;
+    text-align: center;
+}
+
+
+#login-form input[type="text"], #login-form input[type="password"] {
+    width: 80%;
+    height: 2.5em;
+    border: none;
+    border-radius: 1px;
+    padding-left: 10px; 
+}
+
+.purchase-info input[type="text"]:hover, .purchase-info input[type="password"]:hover, .purchase-info input[type="email"]:hover, .feedback input[type="text"]:hover, .feedback input[type="email"]:hover {
+     box-shadow: 5px 5px 5px #000000;
+}
+
+#checkbox {
+    color: #ffffff;
+}
+
+.purchase-info .button_1:hover, .feedback .button_1:hover {
+    box-shadow: 5px 5px 5px #292929;
+}
+
+#new-account-form input[type="text"], #new-account-form input[type="password"], #new-account-form input[type="email"], #feedback-form input[type="text"], #feedback-form input[type="email"] {
+    width: 80%;
+    height: 2.5em;
+    border: none;
+    border-radius: 1px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+#feedback-form input[id="feedback"] {
+    height: 13.5em;
+}
+
+#feedback-form {
+    text-align: center;
+}
+
+#new-account-form input[type="date"] {
+    width: 40%;
+    height: 2.5em;
+    border: none;
+    border-radius: 1px;
+    padding-left: 10px;
+}
+
+#birthdate {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#gender {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#new-account-form form {
+    margin: 0 0 30px 15px;
+}
+
+.status {
+    width: 80%;
+    margin: auto;
+}
+
+.status table {
+    margin-top: 50px;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    padding: 5px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+    font-size: 14px;
+    font-family: latoregular, serif;
+    font-weight: 400;
+    color: #35424a;
+    margin-top: 0;
+    width:100%;
+    clear: both;
+}
